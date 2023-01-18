@@ -34,7 +34,7 @@ const Search = () =>{
             <input type="text" placeholder="Enter Meal" className="form-control col-md-2 input-s" value={text} onChange={handleChange} ></input>
             <button type="submit" className="form-control btn btn-primary"><Icons.FcSearch color="white" className="search-icon"/></button>
             <button type="button" className="form-control btn btn-primary sur-em" onClick={handleRandomMeal}>&#128230;</button>       
-            <button type="button" className="form-control btn btn-danger home-b"><a href="/"><Icons.FcHome className="search-icon"/></a></button>        
+            <button type="button" className="form-control btn btn-danger home-b"><a href=" "><Icons.FcHome className="search-icon"/></a></button>        
 
             </div>
         </form>

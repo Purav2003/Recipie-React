@@ -52,7 +52,7 @@ const AppProvider = ({ children }) => {
             meal = favorites.find((meal) => meal.idMeal === idMeal)
         }
         else{
-            meal = mindeals.f((meal) => meal.idMeal === idMeal)
+            meal = meals.find((meal) => meal.idMeal === idMeal)
         }
         setSelectedMeal(meal)
         setShowModal(true);
